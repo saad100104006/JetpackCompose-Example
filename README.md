@@ -1,4 +1,4 @@
-#A simple application that checks for an account balance
+# A simple application that checks for an account balance
 
 1. On app load, the app will ask for username and password.
 2. When the user inputs his username and password, the app should call the login endpoints and if  successful, redirect to an account balance page.
@@ -20,6 +20,7 @@ Connect a real device and run the application using Run app
 2. MVVM Architecture, complete separation of concerns
 3. Use of Dependency Injection
 4. Full application has been written in kotlin
+5. Full Application has been developer by keeping in mind of security.
 
 
 
