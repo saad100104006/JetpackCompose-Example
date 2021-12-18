@@ -10,6 +10,7 @@ If login is unsuccessful, show error on the login page.
 
 # Android studio version used:
 Android Studio Arctic Fox | 2020.3.1 Patch 2
+JDK 11
 
 Clone the project, then open it in Android Studio, build the gradle.
 Connect a real device and run the application using Run app
