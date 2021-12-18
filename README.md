@@ -8,7 +8,7 @@ If login is unsuccessful, show error on the login page.
 
 # How to setup
 
-#Android studio version used:
+# Android studio version used:
 Android Studio Arctic Fox | 2020.3.1 Patch 2
 
 Clone the project, then open it in Android Studio, build the gradle.
