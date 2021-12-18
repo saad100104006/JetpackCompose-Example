@@ -16,10 +16,10 @@ Connect a real device and run the application using Run app
 
 
 # What's Here
-Have been used latest Native Android Jetpack Component- Jetpack Compose, Jetpack Navigation
-MVVM Architecture, complete separation of concerns
-Use of Dependency Injection
-Full application has been written in kotlin
+1. Have been used latest Native Android Jetpack Component- Jetpack Compose, Jetpack Navigation
+2. MVVM Architecture, complete separation of concerns
+3. Use of Dependency Injection
+4. Full application has been written in kotlin
 
 
 
