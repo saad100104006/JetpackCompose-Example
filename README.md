@@ -25,4 +25,5 @@ Connect a real device and run the application using Run app
 
 
 
+<img width="348" alt="Screenshot 2021-12-19 at 10 56 30 AM" src="https://user-images.githubusercontent.com/8910479/146664398-cfd5acfb-3715-4c4f-a663-0245fef736e7.png">
 
