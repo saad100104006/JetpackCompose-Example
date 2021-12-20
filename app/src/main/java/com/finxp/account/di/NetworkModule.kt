@@ -1,5 +1,6 @@
 package com.finxp.account.di
 
+import com.finxp.account.BuildConfig
 import com.finxp.account.network.FinXpService
 import com.finxp.account.network.util.AccountDtoMapper
 import com.finxp.account.network.util.TokenDtoMapper
@@ -32,7 +33,7 @@ object NetworkModule {
     @Provides
     fun provideFinXpService(): FinXpService {
         return Retrofit.Builder()
-            .baseUrl("https://portal-api-sb.finxp.com/api/")
+            .baseUrl(BuildConfig.BASE_API_URL +"api/")
             .addConverterFactory(GsonConverterFactory.create(GsonBuilder().create()))
             .build()
             .create(FinXpService::class.java)

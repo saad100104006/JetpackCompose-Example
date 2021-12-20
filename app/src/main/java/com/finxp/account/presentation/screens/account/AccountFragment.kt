@@ -25,7 +25,6 @@ import com.finxp.account.presentation.common.CircularIndeterminateProgressBar
 import com.finxp.account.presentation.common.CommonText
 import com.finxp.account.presentation.theme.FinXpTheme
 import com.finxp.account.presentation.theme.LightGrayColor
-import com.finxp.account.util.Currency
 import com.finxp.account.util.getCurrencySign
 import dagger.hilt.android.AndroidEntryPoint
 
@@ -82,7 +81,7 @@ class AccountFragment: Fragment() {
                                         color = LightGrayColor
                                     ) {}
                                     CommonText(
-                                        text = Currency.getCurrencySign(account?.currency.toString()) + account?.balance.toString(),
+                                        text = getCurrencySign(account?.currency.toString()) + account?.balance.toString(),
                                         fontSize = 34.sp,
                                         fontWeight = FontWeight.Bold,
                                         color = LightGrayColor
